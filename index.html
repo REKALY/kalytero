@@ -38,6 +38,7 @@
     }
 
     .topbar {
+      position: relative;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -58,11 +59,58 @@
       height: auto;
     }
 
-    .topbar-note {
-      color: var(--muted);
-      font-size: .76rem;
-      letter-spacing: .08em;
-      text-transform: uppercase;
+    .menu-trigger {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 42px;
+      height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: var(--white);
+      color: var(--ink);
+      cursor: pointer;
+    }
+
+    .menu-trigger:hover,
+    .menu-trigger[aria-expanded="true"] {
+      border-color: var(--ink);
+    }
+
+    .menu-trigger svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .category-menu {
+      position: absolute;
+      z-index: 10;
+      top: calc(100% - 8px);
+      right: 0;
+      display: grid;
+      min-width: 230px;
+      padding: 9px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      background: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .category-menu[hidden] { display: none; }
+
+    .category-menu a {
+      padding: 10px 12px;
+      border-radius: 2px;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.05rem;
+      text-decoration: none;
+    }
+
+    .category-menu a:hover,
+    .category-menu a:focus-visible {
+      outline: 0;
+      background: var(--paper-deep);
     }
 
     .hero {
@@ -359,7 +407,7 @@
     @media (max-width: 760px) {
       .shell { width: min(100% - 28px, 560px); }
       .topbar { padding: 18px 0; }
-      .topbar-note { display: none; }
+      .category-menu { right: 0; width: min(230px, calc(100vw - 28px)); }
       .hero { display: block; padding: 65px 28px 53px; }
       h1 { font-size: clamp(2.9rem, 12vw, 4.8rem); }
       .hero-aside { display: flex; gap: 12px; align-items: center; margin-top: 38px; padding: 15px 0 0; border-left: 0; border-top: 1px solid var(--line); }
@@ -387,7 +435,12 @@
       <a class="brand" href="#inicio" aria-label="Kalytero, inicio">
         <img class="brand-logo" src="kalytero-logo.svg" alt="Kalytero">
       </a>
-      <span class="topbar-note">Malabo · Carta digital</span>
+      <button class="menu-trigger" id="menu-trigger" type="button" aria-controls="category-menu" aria-expanded="false" aria-label="Abrir categorías">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16"></path>
+        </svg>
+      </button>
+      <nav class="category-menu" id="category-menu" aria-label="Categorías del menú" hidden></nav>
     </nav>
 
     <section class="hero" id="inicio">
@@ -427,6 +480,8 @@
     const content = document.querySelector("#menu-content");
     const filters = document.querySelector("#filters");
     const search = document.querySelector("#search");
+    const menuTrigger = document.querySelector("#menu-trigger");
+    const categoryMenu = document.querySelector("#category-menu");
 
     const formatPrice = (item) => `${new Intl.NumberFormat("es-ES").format(item.precio)} ${item.moneda}`;
 
@@ -440,6 +495,27 @@
         .map((name) => `<button class="filter ${state.active === name ? "active" : ""}" data-category="${name}">${name}</button>`)
         .join("");
     }
+
+    function renderCategoryMenu() {
+      categoryMenu.innerHTML = state.categories
+        .map((category) => `<a href="#${slugify(category.nombre)}">${category.nombre}</a>`)
+        .join("");
+    }
+
+    function closeCategoryMenu() {
+      categoryMenu.hidden = true;
+      menuTrigger.setAttribute("aria-expanded", "false");
+      menuTrigger.setAttribute("aria-label", "Abrir categorías");
+    }
+
+    menuTrigger.addEventListener("click", () => {
+      const isOpen = menuTrigger.getAttribute("aria-expanded") === "true";
+      menuTrigger.setAttribute("aria-expanded", String(!isOpen));
+      menuTrigger.setAttribute("aria-label", isOpen ? "Abrir categorías" : "Cerrar categorías");
+      categoryMenu.hidden = isOpen;
+    });
+
+    categoryMenu.addEventListener("click", closeCategoryMenu);
 
     function renderMenu() {
       const query = state.query.toLocaleLowerCase("es");
@@ -505,6 +581,7 @@
       .then((data) => {
         state.categories = data.categorias;
         renderFilters();
+        renderCategoryMenu();
         renderMenu();
       })
       .catch(() => {
