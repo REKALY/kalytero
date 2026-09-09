@@ -1,0 +1,134 @@
+{
+  "categorias": [
+    {
+      "nombre": "Desayunos",
+      "items": [
+        {"nombre": "Omelet", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/omelet-150x150.jpeg", "descripcion": "Huevos, sal pimienta negra", "precio": 3000, "moneda": "FCFA"},
+        {"nombre": "Omelet champiñon queso", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/omelet-150x150.jpeg", "descripcion": "Huevo, queso emental, champiñon de París, sal pimienta", "precio": 3500, "moneda": "FCFA"},
+        {"nombre": "Omelet queso", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/omelet-150x150.jpeg", "descripcion": "Huevo, queso emental, sal pimienta", "precio": 4000, "moneda": "FCFA"},
+        {"nombre": "Pan tostado mermelada", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/pan-tostado-150x150.jpeg", "descripcion": "Pan bimbo tostado, mermelada", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cake", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/cake-150x150.jpeg", "precio": 1000, "moneda": "FCFA"},
+        {"nombre": "Desayuno completo", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/desayuno-150x150.jpeg", "descripcion": "Omelet, pan bimbo tostado, capuchino o café o té", "precio": 5000, "moneda": "FCFA"}
+      ]
+    },
+    {
+      "nombre": "Tapas",
+      "items": [
+        {"nombre": "Patacones colombianos con salsa hogao", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/patacon-150x150.jpeg", "descripcion": "Plátano prensado, salsa de tomate y cebolla junca", "precio": 4000, "moneda": "FCFA"},
+        {"nombre": "Patacones colombianos con pollo", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/patacon-150x150.jpeg", "descripcion": "Plátano prensado, pollo label rojo marinado", "precio": 4000, "moneda": "FCFA"},
+        {"nombre": "Patacones colombianos con carne", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/patacon-150x150.jpeg", "descripcion": "Plátano prensado, carne de ternera marinada y picada", "precio": 4000, "moneda": "FCFA"},
+        {"nombre": "Patacones colombianos con aguacate", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/patacon-150x150.jpeg", "descripcion": "Plátano prensado con salsa de guacamole", "precio": 4000, "moneda": "FCFA"},
+        {"nombre": "Empanadas colombianas con pollo", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/empanadas-150x150.jpeg", "descripcion": "Harina de maíz, pollo label rojo marinado y picado", "precio": 4000, "moneda": "FCFA"},
+        {"nombre": "Empanadas venezolanas con carne", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/empanadas-150x150.jpeg", "descripcion": "Harina de maíz, carne de ternera marinado y picado", "precio": 4000, "moneda": "FCFA"},
+        {"nombre": "Arepas colombianas con carne", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/arepas-1-150x150.jpeg", "descripcion": "Harina de maíz, carne de ternera marinada y picado", "precio": 4000, "moneda": "FCFA"},
+        {"nombre": "Arepas colombianas con pollo", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/arepas-1-150x150.jpeg", "descripcion": "Harina de maíz, carne de ternera marinada y picado", "precio": 4000, "moneda": "FCFA"},
+        {"nombre": "Arepas colombianas con guacamole", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/arepas-1-150x150.jpeg", "descripcion": "Harina de maíz, carne de ternera marinada y picado", "precio": 4000, "moneda": "FCFA"},
+        {"nombre": "Tapas pulpo", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/tapas-pulpo-2-150x150.jpeg", "precio": 6500, "moneda": "FCFA"},
+        {"nombre": "Tapas gambas", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/tapas-gambas-1-150x150.jpeg", "precio": 5500, "moneda": "FCFA"}
+      ]
+    },
+    {
+      "nombre": "Snacks",
+      "items": [
+        {"nombre": "Croque madame", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/Croque-madame-1-150x150.jpeg", "descripcion": "Pan bimbo, jamon de pavo, queso chedar, queso emental, tomate y huevo frito", "precio": 5000, "moneda": "FCFA"},
+        {"nombre": "Croque monsieur", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/croque_monsieur-150x150.jpeg", "descripcion": "Pan bimbo, jamon de pavo, queso chedar, queso emental, tomate", "precio": 4000, "moneda": "FCFA"},
+        {"nombre": "Shawarma con pollo", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/shawarmaPollo-150x150.jpeg", "descripcion": "Pan libanés, pollo label rojo al horno marinado, perejil, limon, cebolla y salsa shawarma de la casa", "precio": 4000, "moneda": "FCFA"},
+        {"nombre": "Bocadillos kalytero", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/bocadillos-1-150x150.jpeg", "descripcion": "Pan artesanal, lechuga, tomate, cebolla caramelizada, salsa de la casa, carne de solomillo", "precio": 5000, "moneda": "FCFA"},
+        {"nombre": "Hamburgesa de pollo", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/hamburgesa-pollo-150x150.jpeg", "descripcion": "Pan, pollo label rojo, preparado, lechuga, tomate, cebolla caramelisada, salsa dela casa", "precio": 5000, "moneda": "FCFA"},
+        {"nombre": "Hamburgesa de carne", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/hamburgesa-carne-1-150x150.jpeg", "descripcion": "Pan, mayonesa de la casa, cebolla caramelisada, lechuga, carne de ternera", "precio": 5500, "moneda": "FCFA"},
+        {"nombre": "Hamburgesa de carne y queso", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/Beef-Hamburgers-150x150.jpeg", "descripcion": "Pan, mayonesa de la casa, cebolla caramelisada, lechuga, carne de ternera", "precio": 6000, "moneda": "FCFA"},
+        {"nombre": "Hamburguesa de carne y tocino", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/hamburguesa-tocino-1-150x150.jpeg", "descripcion": "Pan, mayonesa de la casa, cebolla caramelisada, lechuga, carne de ternera", "precio": 6500, "moneda": "FCFA"},
+        {"nombre": "5 Alitas de pollos marinadas fritas", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/alitas-de-pollo-1-150x150.jpeg", "precio": 4000, "moneda": "FCFA"},
+        {"nombre": "5 Costillas de cerdo marinadas al horno", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/costillas-de-cerdo-1-150x150.jpeg", "precio": 5000, "moneda": "FCFA"},
+        {"nombre": "Bocadillo supremo", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/bocadillo-supremo-150x150.jpeg", "descripcion": "Pan artesanal, pollo label rojo, queso, bacon, salsa de casa", "precio": 6500, "moneda": "FCFA"}
+      ]
+    },
+    {
+      "nombre": "Ensaladas",
+      "items": [
+        {"nombre": "Ensalada césar", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/ensalada-cesar-150x150.jpeg", "descripcion": "lechuga, cuadritos de pan tostado, salsa césar, tomate, queso, pechuga de pollo en trozos", "precio": 6500, "moneda": "FCFA"},
+        {"nombre": "Ensalada de temporada", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/ensalada-temporada-150x150.jpeg", "precio": 4500, "moneda": "FCFA"}
+      ]
+    },
+    {
+      "nombre": "Platos principales",
+      "items": [
+        {"nombre": "Solomillo de vaca con salsa pimienta o champiñon", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/solomillo-vaca-150x150.jpeg", "descripcion": "Guarnición: Arroz o patatas fritas o plátano", "precio": 9500, "moneda": "FCFA"},
+        {"nombre": "Espagueti a la boloñesa al dente", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/Spaghetti-Bolognese-scaled-1-150x150.jpeg", "descripcion": "Carne molida en salsa", "precio": 6500, "moneda": "FCFA"},
+        {"nombre": "Espagueti del mar", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/espaguetti-del-mar-150x150.jpeg", "descripcion": "Pulpo y gambas", "precio": 8500, "moneda": "FCFA"},
+        {"nombre": "Muslo de pollo al horno label rojo", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/muslos-de-pollo-horno-150x150.jpeg", "descripcion": "Guarnición: Patatas ó plátano", "precio": 6500, "moneda": "FCFA"}
+      ]
+    },
+    {
+      "nombre": "Postres",
+      "items": [
+        {"nombre": "Crepes", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/crepes-150x150.jpeg", "precio": 4500, "moneda": "FCFA"},
+        {"nombre": "Flan casero", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/flan-casero-150x150.jpeg", "precio": 4500, "moneda": "FCFA"},
+        {"nombre": "Coctél de fruta temporada", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/10/coctel-de-fruta-150x150.jpeg", "precio": 4500, "moneda": "FCFA"}
+      ]
+    },
+    {
+      "nombre": "Cervezas",
+      "items": [
+        {"nombre": "Cerveza San Miguel Fresca", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/san-miguel-fresca-1-150x150.jpeg", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cerveza San Miguel Especial", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/sm-especial_500x-1-150x150.jpeg", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cerveza San Miguel Clara", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/san-miguel-clara-2-150x150.jpeg", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cerveza San Miguel Malta", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/San-miguel-00malta-1-1-150x150.jpeg", "precio": 2000, "moneda": "FCFA"},
+        {"nombre": "Cerveza San Miguel Manzana", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/San-Miguel-00-Manzana-Cerveza-Paquete-de-6-x-250-ml-Total-1500-ml-0-5-2-150x150.jpeg", "precio": 2000, "moneda": "FCFA"},
+        {"nombre": "Cerveza Heineken", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/heineken-1-150x150.jpeg", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cerveza Corona", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/depositphotos_116148492-stock-photo-frosty-bottle-of-corona-extra-150x150.jpeg", "precio": 2500, "moneda": "FCFA"},
+        {"nombre": "Cerveza Desperado", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/desperados_essentials_europeamee_rooftop_product_still_social_1080x1080_3-870x480-2-150x150.jpeg", "precio": 2000, "moneda": "FCFA"},
+        {"nombre": "Cerveza Trio Stout", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/milk-stout-biere-1-150x150.jpeg", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cerveza Estrella Damm", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/noche-estrella-damm-1-1-150x150.png", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cerveza Estrella Galicia", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/estrella_galicia_final_2-original-150x150.jpeg", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cerveza Damm Lemon", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/Mosaico-3-568x568PX-1-150x150.jpeg", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cerveza Amstel", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/heineken-nv-amstel-iconic-split-150x150.jpeg", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cerveza Castel", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/Castel-edited-150x150.jpeg", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cerveza Guinness Guinea", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/guiness-150x150.jpeg", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cerveza Guinness Cameroun", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/guiness-1-150x150.jpeg", "precio": 2000, "moneda": "FCFA"},
+        {"nombre": "Cerveza Legend", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/unnamed-1-150x150.png", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cerveza Biter Kas", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/biter-edited-150x150.jpeg", "precio": 2000, "moneda": "FCFA"},
+        {"nombre": "Cerveza Smirnoff", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/ice-beer-9233-150x150.jpeg", "precio": 2000, "moneda": "FCFA"},
+        {"nombre": "Cerveza 1968", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/1968beer-1-150x150.jpeg", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Cerveza Alambra", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/img_intro_desktop-1-150x150.jpeg", "precio": 2000, "moneda": "FCFA"}
+      ]
+    },
+    {
+      "nombre": "Licores",
+      "items": [
+        {"nombre": "Whisky Black Label", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/08/black-label-1-150x150.jpeg", "precio": 55000, "moneda": "FCFA"},
+        {"nombre": "Whisky Red label", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/johnniewalker-redlabel-edited-150x150.jpeg", "precio": 55000, "moneda": "FCFA"},
+        {"nombre": "Brandy Carlos I", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/carlos-1-solera-150x150.jpeg", "precio": 55000, "moneda": "FCFA"},
+        {"nombre": "Brandy Carlos lll", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/carlos-iii-150x150.jpeg", "precio": 30000, "moneda": "FCFA"},
+        {"nombre": "Brandy Tres Cepas", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/Tres_Cepas_Light-150x150.png", "precio": 15000, "moneda": "FCFA"},
+        {"nombre": "Whisky Jack Daniels", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/jack-daniel-s-n2-150x150.jpeg", "precio": 40000, "moneda": "FCFA"},
+        {"nombre": "Martini blanco", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/martini-_bianca-150x150.png", "precio": 20000, "moneda": "FCFA"},
+        {"nombre": "Martini rosado", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/martini-rosado-150x150.jpeg", "precio": 20000, "moneda": "FCFA"},
+        {"nombre": "Vodka Absolut", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/absolut-150x150.png", "precio": 30000, "moneda": "FCFA"},
+        {"nombre": "Gin Bombay", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/bombay-150x150.jpeg", "precio": 45000, "moneda": "FCFA"},
+        {"nombre": "Ron Larios Blanco", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/larios-blanco-150x150.jpeg", "precio": 12000, "moneda": "FCFA"},
+        {"nombre": "Bitter", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/bitter-150x150.jpeg", "precio": 1500, "moneda": "FCFA"},
+        {"nombre": "Licor Baileys", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/baileys-150x150.png", "precio": 40000, "moneda": "FCFA"},
+        {"nombre": "Ron Havana Club", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/havana-150x150.jpeg", "precio": 3800, "moneda": "FCFA"},
+        {"nombre": "Ron Bacardi", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/bacardi-150x150.jpeg", "precio": 22000, "moneda": "FCFA"},
+        {"nombre": "Tequila Camino Real", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/camino-150x150.jpeg", "precio": 30000, "moneda": "FCFA"},
+        {"nombre": "Tequila Jose Cuervo Blanco", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/jose-cuervo-150x150.png", "precio": 32000, "moneda": "FCFA"},
+        {"nombre": "Licor Sheridan’s", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/sheridans-150x150.jpeg", "precio": 40000, "moneda": "FCFA"},
+        {"nombre": "Licor Jet 27", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/get-27-150x150.jpeg", "precio": 30000, "moneda": "FCFA"},
+        {"nombre": "Gin Gordon’s", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/gordons-150x150.jpeg", "precio": 28000, "moneda": "FCFA"},
+        {"nombre": "Licor Tia Maria", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/tiamaria-150x150.jpeg", "precio": 45000, "moneda": "FCFA"},
+        {"nombre": "Licor Cointreau", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/cointreu-150x150.jpeg", "precio": 3500, "moneda": "FCFA"},
+        {"nombre": "Licor 43", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/licor-43-150x150.jpeg", "precio": 48000, "moneda": "FCFA"},
+        {"nombre": "Ron Coco Malibú", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/malibu-150x150.jpeg", "precio": 35000, "moneda": "FCFA"},
+        {"nombre": "Licor de Hierba", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/ruavieja-licor-de-hierbas-150x150.png", "precio": 18000, "moneda": "FCFA"},
+        {"nombre": "Whisky Chivas 12", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/chivas-150x150.jpeg", "precio": 75000, "moneda": "FCFA"}
+      ]
+    },
+    {
+      "nombre": "Champan",
+      "items": [
+        {"nombre": "Champán Laurent Perrier", "imagen": "https://restaurante-kalytero.com/wp-content/uploads/2021/09/laurent-perrier-1-150x150.jpeg", "precio": 60000, "moneda": "FCFA"}
+      ]
+    }
+  ]
+}
