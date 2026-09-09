@@ -430,6 +430,11 @@
 
     const formatPrice = (item) => `${new Intl.NumberFormat("es-ES").format(item.precio)} ${item.moneda}`;
 
+    const localImage = (source) => {
+      const filename = source.split("/").pop();
+      return source.startsWith("http") ? `assets/menu/${filename}` : source;
+    };
+
     function renderFilters() {
       filters.innerHTML = ["Todas", ...state.categories.map((category) => category.nombre)]
         .map((name) => `<button class="filter ${state.active === name ? "active" : ""}" data-category="${name}">${name}</button>`)
@@ -460,7 +465,7 @@
           <div class="items">
             ${category.items.map((item) => `
               <article class="item">
-                <img class="item-image" src="${item.imagen}" alt="${item.nombre}" loading="lazy" decoding="async">
+                <img class="item-image" src="${localImage(item.imagen)}" alt="${item.nombre}" loading="lazy" decoding="async">
                 <div class="item-details">
                   <div class="item-top">
                     <h3>${item.nombre}</h3>
